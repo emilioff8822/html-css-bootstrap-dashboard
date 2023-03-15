@@ -19,7 +19,6 @@ min-height: 50px;}
 .offcanvas-size-xl {
   --bs-offcanvas-width: min(95vw, 600px) !important;
 }
-
 .row img {
   width: 100%;
 }
@@ -43,4 +42,30 @@ td {
   min-height: 100px;
   background-color: rgb(6, 113, 185);
   color: white;
+}
+
+.lat {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+}
+
+/*
+@media screen and (max-width: 800px) {
+  .simbols {
+    display: block;
+  }
+  .desktop {
+    display: none;
+  }
+}
+
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding-top: 20px;
 }
