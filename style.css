@@ -15,3 +15,11 @@ height: 100vh;}
 min-height: 50px;}
 
 
+
+.offcanvas-size-xl {
+  --bs-offcanvas-width: min(95vw, 600px) !important;
+}
+
+.row img {
+  width: 100%;
+}
